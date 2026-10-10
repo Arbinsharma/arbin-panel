@@ -1,0 +1,5 @@
+-keep class rikka.shizuku.** { *; }
+-keep class android.hardware.input.IInputManager { *; }
+-keep class android.app.IAppOpsService { *; }
+-keep class com.arbin.panel.** { *; }
+-dontwarn rikka.shizuku.**
